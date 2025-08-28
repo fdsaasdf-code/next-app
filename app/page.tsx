@@ -1,4 +1,10 @@
 import Image from "next/image";
+import type {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: "Главная — Мой блог",
+  description: "Добро пожаловать в мой блог о веб-разработке",
+};
 
 export default function Home() {
   return (
